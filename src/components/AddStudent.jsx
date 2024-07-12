@@ -90,7 +90,7 @@ const AddStudent = ({
             maxLength={4}
             min={2023}
             max={2030}
-            value={graduationYear}
+            checked={graduationYear}
             onChange={(e) => handleChange(e, setGraduationYear)}
           />
         </label>
